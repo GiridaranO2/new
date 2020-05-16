@@ -3,9 +3,9 @@ $un = $_POST['un'];
 $pwd = $_POST['pwd'];
 
 if (!empty($un) || !empty($pwd)){
-    $host = "sql12.freemysqlhosting.net";
-    $dbUsername = "sql12341068";
-    $dbPassword = "VWkjQ7s2gz";
+    $host = "localhost";
+    $dbUsername = "root";
+    $dbPassword = "";
     $dbname = "sql12341068";
 
     //create connection
